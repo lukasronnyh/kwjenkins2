@@ -126,7 +126,7 @@ void reverse_null_2(char* input)
                         return;
     }
 
-void resource_leak_2(void)
+void resource_leak_3(void)
         {
                 char *p = malloc(4);
                 p[0] = 12;
